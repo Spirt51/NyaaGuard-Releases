@@ -1,6 +1,6 @@
-# NyaaLink Releases
+# NyaaGuard Releases
 
-Official update metadata and binary releases for NyaaLink.
+Official update metadata and binary releases for NyaaGuard.
 
 This repository intentionally contains no application source code. Published
 releases will include:
@@ -11,5 +11,5 @@ releases will include:
 - release notes;
 - `update-manifest.json` used by the application updater.
 
-The NyaaLink source repository remains private.
+The NyaaGuard source repository remains private.
 Official NyaaLink releases and update metadata. Source code is maintained privately.
