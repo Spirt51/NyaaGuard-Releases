@@ -40,10 +40,10 @@
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Інсталяція або портативне розпакування; служба та ярлики — за вибором |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | Застосунок, Native Messaging і користувацька служба systemd |
 
-**Актуальна версія 0.1.3:**
+**Актуальна версія 0.1.4:**
 
-- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe.sha256)
-- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb.sha256)
+- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.4/NyaaGuard-Setup-0.1.4-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.4/NyaaGuard-Setup-0.1.4-win-x64.exe.sha256)
+- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.4/nyaaguard_0.1.4_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.4/nyaaguard_0.1.4_amd64.deb.sha256)
 
 Кожен пакет має файл `.sha256`. Збірки поки не підписані комерційним сертифікатом, тому Windows SmartScreen може показати попередження.
 

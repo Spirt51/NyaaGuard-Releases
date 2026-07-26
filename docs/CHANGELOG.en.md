@@ -2,6 +2,13 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.1.4 — July 26, 2026
+
+- added an installer option to choose NyaaGuard as the HTTP/HTTPS default app;
+- opens the relevant Windows Default Apps page after registration;
+- added a “Set as default” button to Settings;
+- localized the feature in all four interface languages.
+
 ## 0.1.3 — July 26, 2026
 
 - added an installer language selector for Russian, Ukrainian, English, and German;
