@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "stable": null,
+  "beta": null,
+  "signing": {
+    "algorithm": "Ed25519",
+    "publicKey": ""
+  }
+}
