@@ -1,0 +1,22 @@
+# Changelog
+
+[Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
+
+## 0.1.2 — July 26, 2026
+
+- reduced spacing between entries in custom domain lists;
+- added an official API-key link to the VirusTotal settings page;
+- updated the interface and Russian, Ukrainian, English, and German translations;
+- synchronized the Windows installer, portable build, and Debian package.
+
+## 0.1.1 — July 26, 2026
+
+- made donation addresses selectable and copyable through the context menu;
+- removed non-working copy buttons;
+- moved update checks to the GitHub Contents API.
+
+## 0.1.0 — July 26, 2026
+
+- first public Windows x64 and Debian/Ubuntu amd64 release;
+- URL cleanup, local threat databases, custom lists, redirect inspection, and response-code checks;
+- optional VirusTotal checks, tray operation, proxy support, and four interface languages.
