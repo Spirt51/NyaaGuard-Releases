@@ -2,6 +2,12 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.1.5 — 26. Juli 2026
+
+- beschädigte russische und ukrainische Texte im Installer korrigiert;
+- Eingabezeichenkodierung des NSIS-Skripts auf UTF-8 festgelegt;
+- kompiliertes Installer-Fenster mit Windows UI Automation geprüft.
+
 ## 0.1.4 — 26. Juli 2026
 
 - Installer-Option ergänzt, um NyaaGuard als Standard-App für HTTP/HTTPS auszuwählen;
