@@ -2,6 +2,14 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.1.3 — July 26, 2026
+
+- added an installer language selector for Russian, Ukrainian, English, and German;
+- localized custom pages, errors, and uninstallation;
+- remembered the selected language for later updates;
+- added branded installer iconography and a large logo;
+- expanded the tracking-parameter cleanup documentation.
+
 ## 0.1.2 — July 26, 2026
 
 - reduced spacing between entries in custom domain lists;

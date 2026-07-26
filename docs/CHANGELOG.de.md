@@ -2,6 +2,14 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.1.3 — 26. Juli 2026
+
+- Sprachauswahl für Russisch, Ukrainisch, Englisch und Deutsch ergänzt;
+- benutzerdefinierte Seiten, Fehler und Deinstallation lokalisiert;
+- gewählte Sprache für spätere Aktualisierungen gespeichert;
+- Marken-Icon und großes Logo zum Installer hinzugefügt;
+- Dokumentation zur Entfernung von Tracking-Parametern erweitert.
+
 ## 0.1.2 — 26. Juli 2026
 
 - Abstände zwischen Einträgen in benutzerdefinierten Domainlisten verkleinert;

@@ -22,12 +22,14 @@
 ## Можливості
 
 - перехоплення зовнішніх посилань і відкриття безпечних адрес у вибраному браузері;
-- видалення поширених параметрів відстеження;
+- видалення поширених параметрів відстеження: `utm_*`, `fbclid`, `gclid`, `dclid`, `msclkid` та інших рекламних/аналітичних ідентифікаторів;
 - локальні оновлювані бази фішингу, шкідливих і спам-ресурсів;
 - окремий вимиканий фільтр adult/NSFW;
 - перевірка ланцюжка перенаправлень і кодів відповіді;
 - додаткова перевірка невідомих URL через VirusTotal із власним API-ключем;
 - користувацькі списки блокування та винятків, проксі, системна тема, чотири мови й робота в треї.
+
+Функціональні параметри сторінки, товару, повідомлення чи відео зберігаються. Після очищення NyaaGuard перевіряє підсумковий URL і весь виявлений ланцюжок перенаправлень.
 
 ## Завантаження
 
@@ -38,10 +40,10 @@
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Інсталяція або портативне розпакування; служба та ярлики — за вибором |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | Застосунок, Native Messaging і користувацька служба systemd |
 
-**Актуальна версія 0.1.2:**
+**Актуальна версія 0.1.3:**
 
-- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/NyaaGuard-Setup-0.1.2-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/NyaaGuard-Setup-0.1.2-win-x64.exe.sha256)
-- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/nyaaguard_0.1.2_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/nyaaguard_0.1.2_amd64.deb.sha256)
+- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe.sha256)
+- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb.sha256)
 
 Кожен пакет має файл `.sha256`. Збірки поки не підписані комерційним сертифікатом, тому Windows SmartScreen може показати попередження.
 

@@ -28,13 +28,15 @@
 ## Что умеет NyaaGuard
 
 - перехватывает внешние ссылки и передаёт безопасные переходы в выбранный браузер;
-- удаляет распространённые параметры отслеживания из URL;
+- удаляет распространённые параметры отслеживания из URL: `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_term`, `fbclid`, `gclid`, `dclid`, `msclkid` и другие рекламные/аналитические идентификаторы;
 - проверяет домены и точные URL по обновляемым базам фишинга, вредоносных и спам-ресурсов;
 - поддерживает отдельный отключаемый фильтр adult/NSFW;
 - проверяет цепочку перенаправлений и коды ответа веб-серверов;
 - при наличии пользовательского API-ключа выполняет дополнительную проверку неизвестных ссылок через VirusTotal;
 - поддерживает пользовательские списки блокировки и исключений, прокси, системную тему и четыре языка;
 - работает в фоне и сворачивается в системный трей.
+
+NyaaGuard сохраняет функциональные параметры — например идентификатор страницы, товара, сообщения или видео — чтобы очищенная ссылка продолжала работать. После очистки проверяется итоговый URL и вся обнаруженная цепочка перенаправлений.
 
 ## Скачать
 
@@ -45,10 +47,10 @@
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Установка или портативная распаковка, служба и ярлыки — на выбор |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | Установка приложения, Native Messaging и пользовательской службы systemd |
 
-**Актуальная версия 0.1.2:**
+**Актуальная версия 0.1.3:**
 
-- [Скачать NyaaGuard для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/NyaaGuard-Setup-0.1.2-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/NyaaGuard-Setup-0.1.2-win-x64.exe.sha256)
-- [Скачать NyaaGuard для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/nyaaguard_0.1.2_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.2/nyaaguard_0.1.2_amd64.deb.sha256)
+- [Скачать NyaaGuard для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/NyaaGuard-Setup-0.1.3-win-x64.exe.sha256)
+- [Скачать NyaaGuard для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.3/nyaaguard_0.1.3_amd64.deb.sha256)
 
 ### Проверка файла
 
@@ -56,13 +58,13 @@
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\NyaaGuard-Setup-0.1.2-win-x64.exe -Algorithm SHA256
+Get-FileHash .\NyaaGuard-Setup-0.1.3-win-x64.exe -Algorithm SHA256
 ```
 
 ```bash
 # Linux
-sha256sum -c nyaaguard_0.1.2_amd64.deb.sha256
-sudo apt install ./nyaaguard_0.1.2_amd64.deb
+sha256sum -c nyaaguard_0.1.3_amd64.deb.sha256
+sudo apt install ./nyaaguard_0.1.3_amd64.deb
 ```
 
 > [!NOTE]
