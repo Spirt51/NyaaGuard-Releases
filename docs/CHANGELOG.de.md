@@ -2,6 +2,12 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.2.2 — 27. Juli 2026
+
+- ein Hängen der normalen Installation bei der Kontextmenü-Registrierung für alle Dateien wurde behoben;
+- wildcard-abhängige PowerShell-Registrierungsbefehle wurden durch die direkte Registry-API ersetzt;
+- Installationsabschluss, Start der Hintergrundaufgabe und Erhalt der API-Schlüssel wurden geprüft.
+
 ## 0.2.1 — 27. Juli 2026
 
 - NyaaGuard-Aktualisierungen laufen nach dem Beenden der App und der Hintergrundkomponente im stillen Modus;
