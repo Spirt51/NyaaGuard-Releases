@@ -2,6 +2,17 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.2.0 — 27. Juli 2026
+
+- Antivirus-Dateischutzzentrum mit Schnell-, Auswahl-, Voll- und Mehrlaufwerkprüfung hinzugefügt;
+- SHA-256, Formaterkennung, statische Analyse, YARA-X, ReversingLabs und ausgewählte Signature-Base-Regeln implementiert;
+- MalwareBazaar, URLhaus und VirusTotal-Dateireputation ohne Upload von Dateiinhalten hinzugefügt;
+- SQLite-Cache und Journal, Pause/Fortsetzen sowie Download-/Wechseldatenträgerüberwachung ergänzt;
+- verschlüsselte Quarantäne, SHA-256-geprüfte Wiederherstellung und verwaltbare Hash-Ausnahmen implementiert;
+- Bedrohungsaktionen erfordern standardmäßig eine Auswahl: Quarantäne, überspringen oder ausschließen;
+- System-Kontextmenüprüfung und sichere Updates mit Stopp von App und Dienst hinzugefügt;
+- Dateioberfläche als professionelles Schutzzentrum in vier Sprachen neu gestaltet.
+
 ## 0.1.5 — 26. Juli 2026
 
 - beschädigte russische und ukrainische Texte im Installer korrigiert;

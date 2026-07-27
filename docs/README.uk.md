@@ -31,6 +31,21 @@
 
 Функціональні параметри сторінки, товару, повідомлення чи відео зберігаються. Після очищення NyaaGuard перевіряє підсумковий URL і весь виявлений ланцюжок перенаправлень.
 
+## Захист файлів у 0.2.0
+
+- новий антивірусний центр зі швидкою, вибірковою та повною перевіркою;
+- перевірка окремих файлів, папок, кількох дисків або всього комп’ютера;
+- SHA-256, визначення реального формату, статичний аналіз і виявлення підміни розширення;
+- ізольований YARA-X із правилами ReversingLabs та відібраними Signature-Base;
+- необов’язкова перевірка хешів через MalwareBazaar, URLhaus і VirusTotal із користувацькими API-ключами;
+- SQLite-кеш і журнал, пауза/продовження, моніторинг завантажень і знімних дисків;
+- зашифрований карантин із перевіркою SHA-256 під час відновлення;
+- безпечний вибір дії: карантин, пропустити або додати SHA-256 до винятків;
+- дії з файлами за замовчуванням потребують підтвердження;
+- контекстне меню перевірки файлів, папок і дисків у Windows та Linux.
+
+Перевірка працює без API-ключів: локальні хеші, формат, евристика та YARA-X залишаються доступними. Вміст файлу не надсилається сервісам репутації — використовується лише хеш.
+
 ## Завантаження
 
 Офіційні пакети доступні в **[останньому випуску](https://github.com/Spirt51/NyaaGuard-Releases/releases/latest)**.
@@ -40,10 +55,10 @@
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Інсталяція або портативне розпакування; служба та ярлики — за вибором |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | Застосунок, Native Messaging і користувацька служба systemd |
 
-**Актуальна версія 0.1.5:**
+**Актуальна версія 0.2.0:**
 
-- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/NyaaGuard-Setup-0.1.5-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/NyaaGuard-Setup-0.1.5-win-x64.exe.sha256)
-- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/nyaaguard_0.1.5_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/nyaaguard_0.1.5_amd64.deb.sha256)
+- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/NyaaGuard-Setup-0.2.0-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/NyaaGuard-Setup-0.2.0-win-x64.exe.sha256)
+- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/nyaaguard_0.2.0_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/nyaaguard_0.2.0_amd64.deb.sha256)
 
 Кожен пакет має файл `.sha256`. Збірки поки не підписані комерційним сертифікатом, тому Windows SmartScreen може показати попередження.
 

@@ -2,6 +2,17 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.2.0 — July 27, 2026
+
+- added an antivirus-style file protection center with quick, selective, full, and multi-drive scans;
+- implemented SHA-256, format detection, static analysis, YARA-X, ReversingLabs, and curated Signature-Base rules;
+- added MalwareBazaar, URLhaus, and VirusTotal file reputation without uploading file contents;
+- added SQLite caching and journal, pause/resume, and download/removable-drive monitoring;
+- implemented encrypted quarantine, SHA-256-verified restore, and manageable hash exclusions;
+- threat actions now require quarantine, skip, or exclude confirmation by default;
+- added system context-menu scanning and safe updates that stop the app and service;
+- redesigned the file UI as a professional protection center in four languages.
+
 ## 0.1.5 — July 26, 2026
 
 - fixed corrupted Russian and Ukrainian text in the installer;
