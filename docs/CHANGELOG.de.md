@@ -2,6 +2,15 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.2.1 — 27. Juli 2026
+
+- NyaaGuard-Aktualisierungen laufen nach dem Beenden der App und der Hintergrundkomponente im stillen Modus;
+- ein vorhandener Hintergrunddienst wird nach dem Update über die Aufgabenplanung wiederhergestellt und gestartet;
+- API-Schlüssel liegen in einem dauerhaften geschützten Speicher und bleiben bei Updates erhalten;
+- MalwareBazaar und URLhaus verwenden jetzt ein gemeinsames abuse.ch-Schlüsselfeld;
+- eine gemeinsame Schaltfläche aktualisiert URL-Feeds, YARA-X, ReversingLabs und ausgewählte Signature-Base-Regeln;
+- YARA-Regelstatus, Scan-Abbruch und automatische Kontextmenü-Registrierung wurden ergänzt.
+
 ## 0.2.0 — 27. Juli 2026
 
 - Antivirus-Dateischutzzentrum mit Schnell-, Auswahl-, Voll- und Mehrlaufwerkprüfung hinzugefügt;

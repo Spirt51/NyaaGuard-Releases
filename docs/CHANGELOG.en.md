@@ -2,6 +2,15 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.2.1 — July 27, 2026
+
+- NyaaGuard application updates now run silently after stopping the app and background component;
+- an existing background service is restored and started through Task Scheduler after the update;
+- API keys use persistent protected storage and survive updates and portable-build replacement;
+- MalwareBazaar and URLhaus now share one abuse.ch key field;
+- one update button refreshes URL feeds, YARA-X, ReversingLabs, and selected Signature-Base rules;
+- added YARA rule status, scan cancellation, and automatic file/folder/drive context-menu registration.
+
 ## 0.2.0 — July 27, 2026
 
 - added an antivirus-style file protection center with quick, selective, full, and multi-drive scans;
