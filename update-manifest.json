@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "stable": {
-    "version": "0.1.5",
-    "publishedAt": "2026-07-26T14:59:17Z",
-    "notesUrl": "https://github.com/Spirt51/NyaaGuard-Releases/releases/tag/v0.1.5",
+    "version": "0.2.0",
+    "publishedAt": "2026-07-27T16:27:42Z",
+    "notesUrl": "https://github.com/Spirt51/NyaaGuard-Releases/releases/tag/v0.2.0",
     "artifacts": [
       {
         "rid": "win-x64",
-        "url": "https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/NyaaGuard-Setup-0.1.5-win-x64.exe",
-        "sha256": "55c75911634170a30ee9d8d75af4faf64b6151f60393481dbaacfc9660bf7ef8",
-        "fileName": "NyaaGuard-Setup-0.1.5-win-x64.exe"
+        "url": "https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/NyaaGuard-Setup-0.2.0-win-x64.exe",
+        "sha256": "4dd247eb3e4237c462416c263244ccf1d506e0cfdb51f7dc50b58333433c6ef9",
+        "fileName": "NyaaGuard-Setup-0.2.0-win-x64.exe"
       },
       {
         "rid": "linux-x64",
-        "url": "https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.1.5/nyaaguard_0.1.5_amd64.deb",
-        "sha256": "90f4c2c7a4675fc49f31f86a0c9ee2a884d3fa2ae447405834855c8923b944a9",
-        "fileName": "nyaaguard_0.1.5_amd64.deb"
+        "url": "https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.0/nyaaguard_0.2.0_amd64.deb",
+        "sha256": "a1cc1ef3ef45ad894c4ae5d8b91bceadf070bec31fa5888ab7c2d46e1e35588e",
+        "fileName": "nyaaguard_0.2.0_amd64.deb"
       }
     ]
   },
