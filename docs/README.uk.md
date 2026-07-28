@@ -1,4 +1,4 @@
-﻿<p align="center"><img src="../assets/nyaaguard-logo.png" width="560" alt="NyaaGuard"></p>
+<p align="center"><img src="../assets/nyaaguard-logo.png" width="560" alt="NyaaGuard"></p>
 
 <p align="center">
   <a href="../README.md">Русский</a> ·
@@ -31,7 +31,7 @@
 
 Функціональні параметри сторінки, товару, повідомлення чи відео зберігаються. Після очищення NyaaGuard перевіряє підсумковий URL і весь виявлений ланцюжок перенаправлень.
 
-## Захист файлів у 0.2.2
+## Захист файлів у 0.3.0
 
 - новий антивірусний центр зі швидкою, вибірковою та повною перевіркою;
 - перевірка окремих файлів, папок, кількох дисків або всього комп’ютера;
@@ -46,7 +46,9 @@
 
 Перевірка працює без API-ключів: локальні хеші, формат, евристика та YARA-X залишаються доступними. Вміст файлу не надсилається сервісам репутації — використовується лише хеш.
 
-У версії 0.2.2 оновлення програми виконується в тихому режимі з автоматичним відновленням фонової служби. Ключі VirusTotal і abuse.ch зберігаються окремо від файлів програми та не втрачаються під час оновлення.
+У 0.3.0 файловий конвеєр і кеш суттєво прискорено. В A/B-тесті на 20 000 операцій відсутні записи кешу оброблялися до **40,8 раза швидше**, повторні звернення — до **50,8 раза швидше**, пакетний запис журналу — до **49,5 раза швидше** за попередню реалізацію. Це показники окремих операцій кешу й журналу; швидкість повної перевірки залежить від накопичувача, набору файлів і ввімкнених рушіїв.
+
+У версії 0.3.0 оновлення програми виконується в тихому режимі з автоматичним відновленням фонової служби. Ключі VirusTotal і abuse.ch зберігаються окремо від файлів програми та не втрачаються під час оновлення.
 
 ## Завантаження
 
@@ -57,10 +59,10 @@
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Інсталяція або портативне розпакування; служба та ярлики — за вибором |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | Застосунок, Native Messaging і користувацька служба systemd |
 
-**Актуальна версія 0.2.2:**
+**Актуальна версія 0.3.0:**
 
-- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/NyaaGuard-Setup-0.2.2-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/NyaaGuard-Setup-0.2.2-win-x64.exe.sha256)
-- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/nyaaguard_0.2.2_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/nyaaguard_0.2.2_amd64.deb.sha256)
+- [Завантажити для Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/NyaaGuard-Setup-0.3.0-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/NyaaGuard-Setup-0.3.0-win-x64.exe.sha256)
+- [Завантажити для Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/nyaaguard_0.3.0_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/nyaaguard_0.3.0_amd64.deb.sha256)
 
 Кожен пакет має файл `.sha256`. Збірки поки не підписані комерційним сертифікатом, тому Windows SmartScreen може показати попередження.
 

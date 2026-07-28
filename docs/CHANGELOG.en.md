@@ -2,6 +2,17 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.0 — July 28, 2026
+
+- file scanning now uses a streaming parallel pipeline without freezing the interface for pre-enumeration;
+- concurrent file counting, exact progress, elapsed time, and estimated remaining time were added;
+- the SQLite cache now uses persistent prepared reads, a bounded L1 cache, a Bloom filter, and batched journal writes;
+- in a reproducible 20,000-operation A/B benchmark, missing-cache lookups were up to **40.8× faster**, repeated lookups up to **50.8× faster**, and batched journal writes up to **49.5× faster** than the previous implementation; whole-scan speedup varies by storage, file mix, and enabled engines;
+- full SHA-256 calculation remains mandatory; unsafe size/timestamp identity reuse was tested and rejected;
+- drive selection now uses checkbox tiles with HDD/SSD/USB/CD/DVD identification, capacity, and physical-disk partition grouping;
+- YARA-X uses one precompiled rule set; worker limits and file-consistency checks were strengthened;
+- drive-tile spacing, button alignment, scaling, and the redundant path tooltip were fixed.
+
 ## 0.2.2 — July 27, 2026
 
 - fixed a normal-installation hang while registering the context menu for all files;

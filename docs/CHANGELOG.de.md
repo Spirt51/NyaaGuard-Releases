@@ -2,6 +2,17 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.0 — 28. Juli 2026
+
+- die Dateiprüfung verwendet nun eine parallele Streaming-Pipeline ohne vorheriges Einfrieren der Oberfläche;
+- paralleles Zählen, genauer Fortschritt, verstrichene Zeit und Restzeitschätzung wurden ergänzt;
+- der SQLite-Cache nutzt dauerhafte vorbereitete Abfragen, einen begrenzten L1-Cache, einen Bloom-Filter und gebündelte Journal-Schreibvorgänge;
+- in einem reproduzierbaren A/B-Test mit 20.000 Vorgängen waren fehlende Cache-Abfragen bis zu **40,8-mal schneller**, wiederholte Abfragen bis zu **50,8-mal schneller** und gebündelte Journal-Schreibvorgänge bis zu **49,5-mal schneller** als zuvor; die Beschleunigung eines vollständigen Scans hängt von Datenträger, Dateimix und Engines ab;
+- die vollständige SHA-256-Berechnung bleibt verpflichtend; unsichere Wiederverwendung anhand von Größe und Zeitstempel wurde getestet und verworfen;
+- die Laufwerksauswahl verwendet Kacheln mit Kontrollkästchen, HDD/SSD/USB/CD/DVD-Typ, Kapazität und Gruppierung physischer Partitionen;
+- YARA-X nutzt einen vorkompilierten Regelsatz; Worker-Limits und Dateikonsistenzprüfung wurden verstärkt;
+- Kachelabstände, Schaltflächenausrichtung, Skalierung und der unnötige Pfad-Tooltip wurden korrigiert.
+
 ## 0.2.2 — 27. Juli 2026
 
 - ein Hängen der normalen Installation bei der Kontextmenü-Registrierung für alle Dateien wurde behoben;

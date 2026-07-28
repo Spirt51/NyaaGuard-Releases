@@ -1,4 +1,4 @@
-﻿<p align="center"><img src="../assets/nyaaguard-logo.png" width="560" alt="NyaaGuard"></p>
+<p align="center"><img src="../assets/nyaaguard-logo.png" width="560" alt="NyaaGuard"></p>
 
 <p align="center">
   <a href="../README.md">Русский</a> ·
@@ -31,7 +31,7 @@
 
 Functional parameters identifying a page, product, message, or video are preserved so cleaned links keep working. NyaaGuard then checks the resulting URL and the complete redirect chain it discovers.
 
-## File protection in 0.2.2
+## File protection in 0.3.0
 
 - a new antivirus-style center with quick, selective, and full scans;
 - scan individual files, folders, multiple drives, or the whole computer;
@@ -46,7 +46,9 @@ Functional parameters identifying a page, product, message, or video are preserv
 
 Scanning remains available without API keys: local hashing, format detection, heuristics, and YARA-X continue to work. File contents are not uploaded to reputation services; only the hash is queried.
 
-Version 0.2.2 installs application updates silently and restores the previous background-service state automatically. VirusTotal and abuse.ch keys are stored separately from application files and survive updates.
+Version 0.3.0 substantially accelerates the file pipeline and cache. In a 20,000-operation A/B benchmark, missing-cache lookups were up to **40.8× faster**, repeated lookups up to **50.8× faster**, and batched journal writes up to **49.5× faster** than the previous implementation. These figures cover individual cache and journal operations; whole-scan speed depends on storage, file mix, and enabled engines.
+
+Version 0.3.0 installs application updates silently and restores the previous background-service state automatically. VirusTotal and abuse.ch keys are stored separately from application files and survive updates.
 
 ## Download
 
@@ -57,10 +59,10 @@ Official packages are available from the **[latest release](https://github.com/S
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Install or portable extraction; optional service and shortcuts |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | App, Native Messaging host, and systemd user service |
 
-**Current version 0.2.2:**
+**Current version 0.3.0:**
 
-- [Download for Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/NyaaGuard-Setup-0.2.2-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/NyaaGuard-Setup-0.2.2-win-x64.exe.sha256)
-- [Download for Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/nyaaguard_0.2.2_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.2.2/nyaaguard_0.2.2_amd64.deb.sha256)
+- [Download for Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/NyaaGuard-Setup-0.3.0-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/NyaaGuard-Setup-0.3.0-win-x64.exe.sha256)
+- [Download for Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/nyaaguard_0.3.0_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.0/nyaaguard_0.3.0_amd64.deb.sha256)
 
 Every package includes a `.sha256` file. Builds are not yet signed with a commercial certificate, so Windows SmartScreen may display a warning; verify the published SHA-256 before running a download.
 
