@@ -2,6 +2,13 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.1 — August 21, 2026
+
+- fixed the Debian/Ubuntu package: the application binary and system launcher are executable after installation;
+- made the `.desktop` launcher visible in the applications menu and launch NyaaGuard through stable `/usr/bin/nyaaguard`;
+- added automatic discovery of Firefox ESR at `/usr/lib/firefox-esr/firefox-esr`;
+- minimized windows on Linux now reliably hide to the system tray.
+
 ## 0.3.0 — July 28, 2026
 
 - file scanning now uses a streaming parallel pipeline without freezing the interface for pre-enumeration;

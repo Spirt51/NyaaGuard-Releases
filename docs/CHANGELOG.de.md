@@ -2,6 +2,13 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.1 — 21. August 2026
+
+- Debian/Ubuntu-Paket korrigiert: Anwendungsdatei und System-Starter erhalten nach der Installation Ausführungsrechte;
+- der `.desktop`-Starter ist im Anwendungsmenü sichtbar und startet NyaaGuard über das stabile `/usr/bin/nyaaguard`;
+- automatische Erkennung von Firefox ESR unter `/usr/lib/firefox-esr/firefox-esr` ergänzt;
+- minimierte Linux-Fenster werden jetzt zuverlässig in den System-Tray ausgeblendet.
+
 ## 0.3.0 — 28. Juli 2026
 
 - die Dateiprüfung verwendet nun eine parallele Streaming-Pipeline ohne vorheriges Einfrieren der Oberfläche;
