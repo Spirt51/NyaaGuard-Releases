@@ -59,10 +59,10 @@ Official packages are available from the **[latest release](https://github.com/S
 | Windows 10/11 x64 | `NyaaGuard-Setup-*-win-x64.exe` | Install or portable extraction; optional service and shortcuts |
 | Debian / Ubuntu amd64 | `nyaaguard_*_amd64.deb` | App, Native Messaging host, and systemd user service |
 
-**Current version 0.3.1:**
+**Current version 0.3.2:**
 
-- [Download for Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.1/NyaaGuard-Setup-0.3.1-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.1/NyaaGuard-Setup-0.3.1-win-x64.exe.sha256)
-- [Download for Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.1/nyaaguard_0.3.1_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.1/nyaaguard_0.3.1_amd64.deb.sha256)
+- [Download for Windows x64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.2/NyaaGuard-Setup-0.3.2-win-x64.exe) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.2/NyaaGuard-Setup-0.3.2-win-x64.exe.sha256)
+- [Download for Debian/Ubuntu amd64](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.2/nyaaguard_0.3.2_amd64.deb) · [SHA-256](https://github.com/Spirt51/NyaaGuard-Releases/releases/download/v0.3.2/nyaaguard_0.3.2_amd64.deb.sha256)
 
 Every package includes a `.sha256` file. Builds are not yet signed with a commercial certificate, so Windows SmartScreen may display a warning; verify the published SHA-256 before running a download.
 

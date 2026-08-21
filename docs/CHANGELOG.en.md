@@ -2,6 +2,16 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.2 — August 21, 2026
+
+- fixed Linux application-menu startup and executable permissions inside the Debian package;
+- added correct author and license metadata for Debian and AppStream;
+- implemented background startup as a graphical-session `systemd --user` service without opening a second window;
+- Linux self-update now resolves dependencies through APT and restores the background service;
+- removed virtual `/proc`, `/sys`, and `/run` entries from drive selection, while honoring real mounts and `/etc/fstab`;
+- manual-rule import now accepts text files and valid domains only, asks for the target list, and removes previously imported garbage;
+- settings save immediately, donation addresses copy on click, and Rules was renamed to Manual rules.
+
 ## 0.3.1 — August 21, 2026
 
 - fixed the Debian/Ubuntu package: the application binary and system launcher are executable after installation;

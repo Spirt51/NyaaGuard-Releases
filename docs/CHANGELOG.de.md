@@ -2,6 +2,16 @@
 
 [Русский](../CHANGELOG.md) · [Українська](CHANGELOG.uk.md) · [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md)
 
+## 0.3.2 — 21. August 2026
+
+- Start aus dem Linux-Anwendungsmenü und Ausführungsrechte im Debian-Paket wurden korrigiert;
+- korrekte Autor- und Lizenzangaben für Debian und AppStream wurden ergänzt;
+- der Autostart läuft als `systemd --user`-Dienst der grafischen Sitzung, ohne ein zweites Fenster zu öffnen;
+- Linux-Selbstupdates lösen Abhängigkeiten jetzt über APT auf und stellen den Hintergrunddienst wieder her;
+- virtuelle `/proc`-, `/sys`- und `/run`-Einträge wurden aus der Laufwerksauswahl entfernt; echte Mounts und `/etc/fstab` werden berücksichtigt;
+- der Import manueller Regeln akzeptiert nur Textdateien und gültige Domains und fragt nach der Zielliste;
+- Einstellungen werden sofort gespeichert, Spendenadressen per Klick kopiert und Regeln wurde in Manuelle Regeln umbenannt.
+
 ## 0.3.1 — 21. August 2026
 
 - Debian/Ubuntu-Paket korrigiert: Anwendungsdatei und System-Starter erhalten nach der Installation Ausführungsrechte;
